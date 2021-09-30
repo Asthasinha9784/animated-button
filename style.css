@@ -1,0 +1,56 @@
+body{
+	background: #240785;
+	height: 100vh;
+}
+.hero, .button, .sun, .button span{
+	position: absolute;
+}
+.hero{
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+}
+a:hover .sun{
+	bottom: 176px;
+	transition: all 1s ease-in-out;
+	box-shadow: 0px 0px 10px #ffdc2a;
+}
+.sun{
+	width: 64px;
+	height: 64px;
+	left: 55px;
+	bottom: 136px;
+	background: linear-gradient(180deg, #ffdc2a 0%, #fb2182 41.54%);
+	box-shadow: 0px 0px 36px #ffdc2a;
+	z-index: 2;
+	height: 64px;
+	left: 55px;
+	bottom: 136px;
+	border-radius: 65px;
+	transition: 1s ease-in-out;
+}
+span{
+	text-align: center;
+	font-family: serif;
+	left: 56px;
+	font-size: 35px;
+	line-height: 70px;
+	margin: auto;
+	transition: all 0.3s ease-in-out;
+	background: -webkit-linear-gradient(#ffdc2a,#fb2182);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.button{
+	width: 171px;
+	height: 65px;
+	background: #5d2096;
+	box-shadow: 0px 0px 16px #c80de0;
+	border-radius: 2px;
+	z-index: 3;
+	transition: all 1s ease-in-out;
+}
